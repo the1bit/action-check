@@ -1,0 +1,17 @@
+name: "Create Release"
+
+jobs:
+  run-something:
+    name: Simple step
+    runs-on: unutu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Run code
+        run: |
+         pwd 
+         ls -la
+
