@@ -4,6 +4,10 @@ on:
   push:
     branches:
       - 'release-*'
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Release name "2.1.3"'
 
 jobs:
   run-something:
