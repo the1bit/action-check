@@ -1,5 +1,10 @@
 name: "Create Release"
 
+on:
+  push:
+    branches:
+      - 'release-*'
+
 jobs:
   run-something:
     name: Simple step
