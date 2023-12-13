@@ -12,7 +12,7 @@ on:
 jobs:
   run-something:
     name: Simple step
-    runs-on: unutu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Verify that the current branch has a name that starts with 'release-'
